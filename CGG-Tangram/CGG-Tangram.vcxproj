@@ -133,6 +133,7 @@
     <ClCompile Include="..\libraries\mgl\mglApp.cpp" />
     <ClCompile Include="..\libraries\mgl\mglError.cpp" />
     <ClCompile Include="..\libraries\mgl\mglShader.cpp" />
+    <ClCompile Include="src\create-shape.cpp" />
     <ClCompile Include="src\hello-2d-world.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
