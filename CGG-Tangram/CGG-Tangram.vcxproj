@@ -136,6 +136,9 @@
     <ClCompile Include="src\create-shape.cpp" />
     <ClCompile Include="src\hello-2d-world.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\create-shape.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
