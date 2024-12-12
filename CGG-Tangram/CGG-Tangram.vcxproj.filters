@@ -15,24 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\libraries\mgl\mglError.cpp">
-      <Filter>Arquivos de Origem</Filter>
+    <ClCompile Include="src\mesh-loader.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneGraph.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneNode.cpp">
+      <Filter>Arquivos de Recurso</Filter>
     </ClCompile>
     <ClCompile Include="..\libraries\mgl\mglApp.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="src\hello-2d-world.cpp">
-      <Filter>Arquivos de Recurso</Filter>
+    <ClCompile Include="..\libraries\mgl\mglCamera.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mgl\mglError.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\mgl\mglMesh.cpp">
+      <Filter>Arquivos de Origem</Filter>
     </ClCompile>
     <ClCompile Include="..\libraries\mgl\mglShader.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="src\create-shape.cpp">
-      <Filter>Arquivos de Recurso</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\create-shape.hpp">
+    <ClInclude Include="src\SceneGraph.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneNode.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>
